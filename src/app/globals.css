@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-2 {
+  display: none; /* 기본적으로 숨김 */
+}
+
+@media (max-width: 768px) {
+  .line-1 {
+    display: block;
+  }
+  .line-2 {
+    display: block;
+  }
+  .line-3 {
+    display: block;
+  }
+  .line-4 {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .line-1 {
+    display: inline;
+  }
+  .line-2 {
+    display: inline;
+  }
+  .line-3 {
+    display: inline;
+  }
+  .line-4 {
+    display: inline;
+  }
+}
+
+/* 작은 화면에서 마진 증가 */
+@media (max-width: 768px) {
+  .p-margin {
+    margin-bottom: 24px; /* 작은 화면에서 더 큰 간격 설정 */
+  }
+}
+
+

@@ -1,8 +1,6 @@
 module.exports = {
   i18n: {
-    defaultLocale: 'ko',
-    locales: ['ko', 'en'],
+    locales: ['en', 'ko'], // 지원할 언어 설정
+    defaultLocale: 'ko',  // 기본 언어 설정
   },
-  localePath: path.resolve('./public/locales'),
-  reloadOnPrerender: process.env.NODE_ENV === 'development',
 };

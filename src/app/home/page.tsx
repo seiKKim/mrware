@@ -18,25 +18,29 @@ export default function Home() {
     }
     setMounted(true);
   }, []);
-
-const changeLanguage = (lng: string) => {
-  i18n.changeLanguage(lng);
-  localStorage.setItem('lang', lng);
-  setIsOpen(false);
   
-  // 언어 변경 후 페이지 새로고침
-  window.location.reload();
-};
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem('lang', lng);
+    router.refresh();
+    setIsOpen(false);
+  };
 
   if (!mounted) return null;
 
   return (
     <div className="relative min-h-screen">
-      <div className="absolute inset-0 z-0">
+      {/* <div className="absolute inset-0 z-0">
         <video autoPlay loop muted className="w-full h-full object-cover">
           <source src="/icare_main.mp4" type="video/mp4" />
         </video>
-      </div>
+      </div> */}
+      <div className="absolute inset-0 z-0">
+  <video autoPlay loop muted className="w-full h-full object-cover hidden md:block">
+    <source src="/icare_main.mp4" type="video/mp4" />
+  </video>
+  <div className="w-full h-full object-cover block md:hidden bg-[url('/mobile-background.jpg')] bg-cover bg-center"></div>
+</div>
       <main className="relative z-10">
         {/* Language Switcher */}
         <div className="absolute top-4 right-4">

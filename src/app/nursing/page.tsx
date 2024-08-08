@@ -57,8 +57,8 @@ const NursingPage  = () => {
               href="https://kr1-api-object-storage.nhncloudservice.com/v1/AUTH_4da40ab7f9d14b998a98d89a4810f18b/images/%ED%95%B5%EC%8B%AC%EA%B0%84%ED%98%B8%EC%88%A0%EA%B8%B0/%ED%95%B5%EC%8B%AC%EA%B0%84%ED%98%B8%EC%88%A0%EA%B8%B0%20%EC%BD%98%ED%85%90%EC%B8%A0%20%ED%99%9C%EC%9A%A9%20%EB%A7%A4%EB%89%B4%EC%96%BC_V.02%20(1).pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center px-6 py-3 bg-[#8168ff] hover:bg-[#9b8bff] rounded-full w-[570px] h-[60px] transition-colors duration-300 transform hover:scale-105  shadow-lg"
-            >
+              className="flex items-center px-6 py-3 bg-[#8168ff] hover:bg-[#9b8bff] rounded-full w-full md:w-[570px] h-[60px] transition-colors duration-300 transform hover:scale-105 shadow-lg"
+              >
               <img src="/Group2.png" alt="Icon" className="w-6 h-6 mr-2" />
               {t('nav2')}
             </a>

@@ -30,17 +30,11 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen">
-      {/* <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0">
         <video autoPlay loop muted className="w-full h-full object-cover">
           <source src="/icare_main.mp4" type="video/mp4" />
         </video>
-      </div> */}
-      <div className="absolute inset-0 z-0">
-  <video autoPlay loop muted className="w-full h-full object-cover hidden md:block">
-    <source src="/icare_main.mp4" type="video/mp4" />
-  </video>
-  <div className="w-full h-full object-cover block md:hidden bg-[url('/mobile-background.jpg')] bg-cover bg-center"></div>
-</div>
+      </div>
       <main className="relative z-10">
         {/* Language Switcher */}
         <div className="absolute top-4 right-4">

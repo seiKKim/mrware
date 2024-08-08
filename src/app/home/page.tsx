@@ -12,14 +12,21 @@ export default function Home() {
 
 
   useEffect(() => {
+    const savedLang = localStorage.getItem('lang');
+    if (savedLang) {
+      i18n.changeLanguage(savedLang);
+    }
     setMounted(true);
   }, []);
-  const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng);
-    localStorage.setItem('lang', lng);
-    router.refresh();
-    setIsOpen(false);
-  };
+
+const changeLanguage = (lng: string) => {
+  i18n.changeLanguage(lng);
+  localStorage.setItem('lang', lng);
+  setIsOpen(false);
+  
+  // 언어 변경 후 페이지 새로고침
+  window.location.reload();
+};
 
   if (!mounted) return null;
 

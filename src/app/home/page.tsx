@@ -68,13 +68,18 @@ export default function Home() {
           <div className="main-banner-title text-4xl font-bold text-[#FFFFFF] text-[63px] font-extrabold leading-[1.2] break-words text-center">
             <label>{t('Medical Reality,')}</label> <label>{t('MRWARE')}</label>
           </div>
-          <div className="main-banner-desc mt-6 text-[#FFFFFF] text-[29px] font-medium leading-[1.2] break-words text-center ">
-            <p className="mt-10">{t('의료 실습 플랫폼 MRWARE에서')}</p>
-            <p className="mt-5">
-              {t('실습부터 실습결과 관리까지, 언제 어디서든 만나 보세요.')}
+          <div className="main-banner-desc mt-6 text-[#FFFFFF] text-[27px] font-medium leading-[1.2] break-words text-center ">
+            <p className="mt-10">
+              <span className="line-1">{t('OntheMRWARE')}&nbsp;</span>
+              <span className="line-2">{t('OntheMRWARE2')}</span>
             </p>
             <p className="mt-5">
-              {t('의료 실습 교육의 새로운 패러다임을 제시합니다.')}
+              <span className="line-1">{t('Frompractice')}&nbsp;</span>
+              <span className="line-2">{t('Frompractice2')}</span>
+            </p>
+            <p className="mt-5">
+              <span className="line-1">{t('newparadigm')}&nbsp;</span>
+              <span className="line-2">{t('newparadigm2')}</span>
             </p>
           </div>
         </div>

@@ -10,9 +10,12 @@ const resources = {
       // ===================================================================
       "Medical Reality,": "Medical Reality,",
       "MRWARE": "MRWARE",
-      "의료 실습 플랫폼 MRWARE에서": "On the MRWARE medical practice platform",
-      "실습부터 실습결과 관리까지, 언제 어디서든 만나 보세요.": "From practice to result management, experience it anytime, anywhere.",
-      "의료 실습 교육의 새로운 패러다임을 제시합니다.": "We present a new paradigm in medical practice education.",
+      "OntheMRWARE": "On the MRWARE",
+      "OntheMRWARE2": "medical practice platform",
+      "Frompractice": "From practice to result management,",
+      "Frompractice2": "experience it anytime, anywhere.",
+      "newparadigm": "We present a new paradigm",
+      "newparadigm2": "in medical practice education.",
       "핵심간호술기": "Core Nursing Skills",
       "물리치료": "Physiotherapy",
       "요양보호": "Caregiving",
@@ -117,8 +120,8 @@ const resources = {
       "physicalTherapyDesc2-2": "content and results status of 20 topics.",
 
       "realism": "Realism",
-      "realismEnhanced": "Enhanced realism through real shooting",
-
+      "realismEnhanced": "Enhanced realism through",
+      "realismEnhanced2": "real shooting",
       "efficientPractice": "Efficient Practice",
       "physicalTherapyTests": "Providing various types of problems",
       "physicalTherapyTests2": "for 20 types of special physical therapy tests",
@@ -129,8 +132,8 @@ const resources = {
       "multipleChoiceQuestions2": "Selection Questions",
 
       "practiceAndEvaluationManagement": "Practice and Evaluation Management",
-      "checkPracticeResults": "- Check practice results and evaluation records",
-      "checkPracticeResults1": "for each topic",
+      "checkPracticeResults": "- Check practice results and ",
+      "checkPracticeResults1": "evaluation records for each topic",
       "checkStudentPracticeStatus": "- Check the practice status of each student",
       "provideFeedback": "- Provide feedback on practice content",
       "easyAndConvenientAccessEnvironment": "Easy and Convenient Access Environment",
@@ -155,15 +158,16 @@ const resources = {
       "newEnvironmentForStudents": "Provide a new practice environment to students",
       "offerEnvironment": "We can offer a new practice environment.",
 
-      "vrContentTitle": "Caregiver Training Content through",
-      "vrContentTitle2": "Virtual Reality (VR)",
-      "vrDescription1": "Caregiver Training Platform with 360VR",
-      "vrDescription1-1": "immersive practice education.",
+      "vrContentTitle": "Caregiver Training Content",
+      "vrContentTitle2": "through Virtual Reality (VR)",
+      "vrDescription1": "Caregiver Training Platform with",
+      "vrDescription1-1": "360VR immersive practice education.",
       "vrDescription2": "You can access 20 practice topics",
       "vrDescription2-2": "and check practice progress results.",
 
       "caregiverSpecialTests": "Providing various types of questions",
-      "caregiverSpecialTests2": "for 20 special topics related to caregivers",
+      "caregiverSpecialTests2": "for 20 special topics",
+      "caregiverSpecialTests3": "related to caregivers",
       "multipleChoiceQuestion": "Multiple Choice Question",
       "oxQuestion": "OX Question",
 
@@ -179,9 +183,12 @@ const resources = {
       // ===================================================================
       "Medical Reality,": "Medical Reality,",
       "MRWARE": "MRWARE",
-      "의료 실습 플랫폼 MRWARE에서": "의료 실습 플랫폼 MRWARE에서",
-      "실습부터 실습결과 관리까지, 언제 어디서든 만나 보세요.": "실습부터 실습결과 관리까지, 언제 어디서든 만나 보세요.",
-      "의료 실습 교육의 새로운 패러다임을 제시합니다.": "의료 실습 교육의 새로운 패러다임을 제시합니다.",
+      "OntheMRWARE": "의료 실습 플랫폼",
+      "OntheMRWARE2": "MRWARE에서",
+      "Frompractice": "실습부터 실습결과 관리까지,",
+      "Frompractice2": "언제 어디서든 만나 보세요.",
+      "newparadigm": "의료 실습 교육의 새로운 ",
+      "newparadigm2": "패러다임을 제시합니다.",
       "핵심간호술기": "핵심간호술기",
       "물리치료": "물리치료",
       "요양보호": "요양보호",
@@ -283,7 +290,8 @@ const resources = {
       "computerGraphicDesc2": "통한 보충 설명",
 
       "realism": "실재감",
-      "realismEnhanced": "실사 촬영을 통한 실재감 향상",
+      "realismEnhanced": "실사 촬영을 통한",
+      "realismEnhanced2": "실재감 향상",
 
       "efficientPractice": "효율적인 실습",
       "physicalTherapyTests": "물리치료 특수검사 20종에 대하여",
@@ -329,8 +337,9 @@ const resources = {
       "vrDescription2": "20개 주제의 실습 콘텐츠와 실습 현황",
       "vrDescription2-2": "결과를 확인할 수 있습니다.",
 
-      "caregiverSpecialTests": "요양보호사 주제별 20종에 대하여",
-      "caregiverSpecialTests2": "다양한 유형의 문제 제공",
+      "caregiverSpecialTests": "요양보호사",
+      "caregiverSpecialTests2": "주제별 20종에 대하여",
+      "caregiverSpecialTests3": "다양한 유형의 문제 제공",
         "multipleChoiceQuestion": "객관식 문항",
         "oxQuestion": "OX 문항",
       

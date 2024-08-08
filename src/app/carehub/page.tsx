@@ -160,7 +160,6 @@ const CareHub = () => {
               <span className="line-2">{t('vrDescription1-1')}</span>
               </p>
               <p className="font-['Noto Sans KR'] font-[400] text-[24px] leading-[34.75px] text-[#2f2f2f] p-margin">
-              
               <span className="line-1">{t('vrDescription2')}&nbsp;</span>
               <span className="line-2">{t('vrDescription2-2')}</span>
               </p>
@@ -216,7 +215,8 @@ const CareHub = () => {
             </div>
             <div className="text-center">
               <p className="font-['Noto Sans KR'] font-[400] text-[24px] leading-[34.75px] text-[#2F2F2F] mt-6">
-              {t('realismEnhanced')}
+              <span className="line-1">{t('realismEnhanced')}&nbsp;</span>
+              <span className="line-2">{t('realismEnhanced2')}</span>
               </p>
             </div>
 
@@ -233,7 +233,8 @@ const CareHub = () => {
               <p className="font-['Noto Sans KR'] font-[400] text-[24px] leading-[34.75px] text-[#2f2f2f]">
               
               <span className="line-1">{t('caregiverSpecialTests')}&nbsp;</span>
-              <span className="line-2">{t('caregiverSpecialTests2')}</span>
+              <span className="line-2">{t('caregiverSpecialTests2')}&nbsp;</span>
+              <span className="line-3">{t('caregiverSpecialTests3')}&nbsp;</span>
               </p>
             </div>
             <div className="w-full max-w-[1420px] mt-10 rounded-[20px] bg-[#FFFFFF] flex justify-center items-center flex-col p-4">
@@ -322,7 +323,6 @@ const CareHub = () => {
                   </div>
                   <div className="text-left mt-6 mr-20 md:text-center"> {/* text-left로 변경 */}
                     <p className="font-['Noto Sans KR'] font-[500] text-[18px] md:text-[22px] leading-[36.86px] text-[#2F2F2F]">
-                      {/* {t('checkPracticeResults')} */}
                       <span className="line-1">{t('checkPracticeResults')}</span>
                       <span className="line-2">{t('checkPracticeResults1')}</span>
                     </p>
